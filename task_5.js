@@ -5,3 +5,18 @@
 
 Протестируйте функцию на любых значениях и выведите результат в консоль.
 */
+
+
+const x = 6;
+const n = 6;
+
+const exponentiation = (x, n) => {// Стрелочная функция
+    let result = x;
+
+    for (let i = 1; i < n; i++) {// умножаем Х само на себя N раз
+        result *= x;
+    }
+    return result;
+}
+
+console.log(exponentiation(x, n));
