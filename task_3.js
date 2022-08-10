@@ -8,5 +8,7 @@ function isFunctionOne(numOne) {
     }
     return isFunctionOTwo(7);
 }
+
 let result = isFunctionOne(2);
+
 console.log(result);
